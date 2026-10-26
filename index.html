@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>kuroの自己紹介</title>
+</head>
+<body>
+  <h1>kuro</h1>
+  <p>愛知県に住んでいる1年生です。休日はゲームをしています。</p>
+
+  <img src="img/photo.png" alt="自己紹介用の画像" width="300">
+
+  <h2>好きなもの</h2>
+  <ul>
+    <li>ゲーム</li>
+    <li>読書</li>
+    <li>音楽</li>
+  </ul>
+
+  <h2>好きなもの ベスト3</h2>
+  <ol>
+    <li>ゲーム</li>
+    <li>音楽</li>
+    <li>読書</li>
+  </ol>
+
+  <h2>おすすめサイト</h2>
+  <p>
+    <a href="https://youtu.be/ATK7gAaZTOM">おすすめ動画</a>
+  </p>
+ 
+  <h2>好きなものベスト3の理由</h2>
+ <table border="1">
+   <tr>
+      <th>順位</th>
+      <th>好きなもの</th>
+      <th>理由</th>
+   </tr>
+   <tr>
+      <td>1</td>
+      <td>ゲーム</td>
+      <td>楽しいから</td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>音楽</td>
+      <td>気分が上がるから</td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>読書</td>
+      <td>知識が増えるから</td>
+   </tr>
+ </table>
+
+ <h2>このページの感想を送る</h2>
+<form method="get">
+    <dl>
+        <dt><label for="visitor-name">お名前</label></dt>
+        <dd><input type="text" id="visitor-name" name="visitor-name"  required placeholder="お名前を入力してください"></dd>
+        <dt>いちばんよかったところ</dt>
+        <dd>
+            <label><input type="radio" name="best" value="photo">写真</label>
+            <label><input type="radio" name="best" value="site">おすすめサイト</label>
+            <label><input type="radio" name="best" value="table">好きなものベスト3の理由</label>
+        </dd>
+        <dt><label for="comment">感想</label></dt>
+        <dd><textarea id="comment" name="comment" rows="4"></textarea></dd>
+    </dl>
+    <button type="submit">送信する</button>
+</form>
+</body>
+</html>
