@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+.favorite {
+    color: red;
+    font-weight: bold;
+}
