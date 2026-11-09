@@ -6,19 +6,28 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>kuro</h1>
+<header>
+    <h1>kuroの自己紹介</h1>
+    <nav>
+          <a href="#favorite">好きなもの</a>
+          <a href="#reason">好きなものベスト3</a>
+          <a href="#form">感想を送る</a>
+    </nav>
+</header>
+
+<main>
   <p>愛知県に住んでいる1年生です。休日はゲームをしています。</p>
 
   <img src="img/photo.png" alt="自己紹介用の画像" width="300">
 
-  <h2>好きなもの</h2>
+  <h2 id="favorite">好きなもの</h2>
   <ul>
     <li class="favorite">ゲーム</li>
     <li>読書</li>
     <li>音楽</li>
   </ul>
 
-  <h2>好きなもの ベスト3</h2>
+  <h2 id="reason">好きなもの ベスト3</h2>
   <ol>
     <li>ゲーム</li>
     <li>音楽</li>
@@ -27,7 +36,9 @@
 
   <h2>おすすめサイト</h2>
   <p>
-    <a href="https://youtu.be/Pwg0i0GSuF0?si=ZX9QGI1lgtJlZI4b">おすすめ動画</a>
+    <a href="https://youtu.be/Pwg0i0GSuF0?si=ZX9QGI1lgtJlZI4b">
+        おすすめ動画
+    </a>
   </p>
  
   <h2>好きなものベスト3の理由</h2>
@@ -54,7 +65,7 @@
    </tr>
  </table>
 
- <h2>このページの感想を送る</h2>
+ <h2 id="form">このページの感想を送る</h2>
 <form method="get">
     <dl>
         <dt><label for="visitor-name">お名前</label></dt>
@@ -68,7 +79,14 @@
         <dt><label for="comment">感想</label></dt>
         <dd><textarea id="comment" name="comment" rows="4"></textarea></dd>
     </dl>
-    <button type="submit">送信する</button>
+<button type="submit">送信する</button>
 </form>
+
+</main>
+
+<footer>
+    © 2026 kuro
+</footer>
+
 </body>
 </html>
